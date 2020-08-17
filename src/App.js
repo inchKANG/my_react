@@ -19,23 +19,40 @@ function Food({fav}){
 //이후 html 태그 안에서 사용하기 위해 {fav} 와 같이 입력해 준 것이다.
 probs 를 그대로 보낸 다음에 probs.fav와 같이 해도 된다.
 */
-let food = [{"name":"김치"},{"name":"피자"},{"name":"햄버거"}];
 
+//api에서 이런 정보가 왔다고 가정한다면, 이 정보를 map 함수를 쓰면 동적으로 그려줄 수 있다. 
+let food = [{"name":"김치"},{"name":"코코"},{"name":"피자"},{"name":"햄버거"}];
+
+
+//이와 같이 함수에 담아서 사용할 수도 있다. 
+function renderFood(food){
+return <Food name ={food.name} />
+}
+
+
+//리액트의  probs에는 key 가 필수이다. 없어도 문제는 없음. 하지만 에러가 난다.
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-      {food.map(item => <Food name={item.name} />)}
+    <div>
+      {/* {food.map(renderFood)} */}
+      {food.map(item => (<Food key = {item.name} name = {item.name} />))}
     </div>
   );
 }
 
 
 
-function Food({name}){
+function Food(props){
+  console.log(props)
   return(
-  <h1>i like {name}</h1>
+  <h1>i like {props.name}</h1>
   );
 }
+
+// function Food({name}){
+//   return(
+//   <h1>i like {name}</h1>
+//   );
+// }
 
 export default App;
