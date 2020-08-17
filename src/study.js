@@ -17,7 +17,7 @@ const friends = ["zz","aa","ss"];
 // var a = friends.map(function(current){
 //     console.log(current);
 //     return current + "@";
-// });
+// });go
 
 var a =friends.map(item => console.log(item));
 
@@ -25,4 +25,4 @@ var a =friends.map(function(item){
 console.log(item);
 }
 );
-// console.log(a);
+console.log(a);
