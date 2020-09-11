@@ -19,10 +19,13 @@ const friends = ["zz","aa","ss"];
 //     return current + "@";
 // });go
 
-var a =friends.map(item => console.log(item));
+var a =friends.map(item => {return 10;});
 
-var a =friends.map(function(item){
-console.log(item);
-}
-);
+
 console.log(a);
+
+// var a =friends.map(function(item){
+// console.log(item);
+// }
+// );
+// console.log(a);
