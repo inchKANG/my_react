@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e0866ad.chunk.css",
-    "main.js": "/static/js/main.1f1a8518.chunk.js",
-    "main.js.map": "/static/js/main.1f1a8518.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.480e635b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.480e635b.js.map",
-    "static/js/2.bf54580d.chunk.js": "/static/js/2.bf54580d.chunk.js",
-    "static/js/2.bf54580d.chunk.js.map": "/static/js/2.bf54580d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1b8d60b4bbc73ecc54d51c50018ab45f.js": "/precache-manifest.1b8d60b4bbc73ecc54d51c50018ab45f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0e0866ad.chunk.css.map": "/static/css/main.0e0866ad.chunk.css.map",
-    "static/js/2.bf54580d.chunk.js.LICENSE.txt": "/static/js/2.bf54580d.chunk.js.LICENSE.txt"
+    "main.css": "/my_react/static/css/main.0e0866ad.chunk.css",
+    "main.js": "/my_react/static/js/main.1f1a8518.chunk.js",
+    "main.js.map": "/my_react/static/js/main.1f1a8518.chunk.js.map",
+    "runtime-main.js": "/my_react/static/js/runtime-main.0135112f.js",
+    "runtime-main.js.map": "/my_react/static/js/runtime-main.0135112f.js.map",
+    "static/js/2.bf54580d.chunk.js": "/my_react/static/js/2.bf54580d.chunk.js",
+    "static/js/2.bf54580d.chunk.js.map": "/my_react/static/js/2.bf54580d.chunk.js.map",
+    "index.html": "/my_react/index.html",
+    "precache-manifest.80c13495275d35682ade5009bdb53378.js": "/my_react/precache-manifest.80c13495275d35682ade5009bdb53378.js",
+    "service-worker.js": "/my_react/service-worker.js",
+    "static/css/main.0e0866ad.chunk.css.map": "/my_react/static/css/main.0e0866ad.chunk.css.map",
+    "static/js/2.bf54580d.chunk.js.LICENSE.txt": "/my_react/static/js/2.bf54580d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.480e635b.js",
+    "static/js/runtime-main.0135112f.js",
     "static/js/2.bf54580d.chunk.js",
     "static/css/main.0e0866ad.chunk.css",
     "static/js/main.1f1a8518.chunk.js"
